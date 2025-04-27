@@ -1,0 +1,177 @@
+1. What is Python, and why is it popular?
+	Python is a high level Programming language.the reasons why python is popular are:
+		1. it is open source, that means anyone can download python and make changes in the original codes
+		2. python is high level machine independent 
+		3. witting in python feels like giving English instructions
+		4. Highly Readable language, just looking at the code would be enough to understand the output
+		5. pythons has many inbuilt libraries packages and modules which makes coding easy.
+
+
+
+2. What is an interpreter in Python?
+	Interpreter can defined as a translator which converts python code (high level language) into machine code ( low level
+	language) line by line.
+	
+3. What are pre-defined keywords in Python?
+	tokens: smallest unit of a programming language is called tokens 
+	types of tokens:
+		1. keywords
+		2. operators
+		3. identifiers
+		3. constants or literals
+		4 white spaces
+	keywords are are reserved words of a programming language, that means they hold a separate meaning which cannot be used as 
+	an identifier.
+	examples: for, which, if, else, in , is
+	
+	the fact that they are called predefined is due to they are inbuilt keywords and are not defined by user.
+
+
+4. Can keywords be used as variable names?
+	No, keywords cannot be used as Variable names , as keywords are reserved words , according to python programming protocol
+	the keywords cannot be used as variables.
+
+5. What is mutability in Python?
+	mutability refers to the property of a data-structure to allow the changes after it has been initialize.
+	which means the mutable data types can be changed after initialised, and the address doesn't change.
+	
+	ex: List is a mutable datatype
+	
+	list = [1,2,3,4,5"swabira",True,"chand"]
+	print(list)
+	# [1,2,3,4,5"swabira",True,"chand"]
+	list[2] = 100
+	print(list)
+	# [1,2,100,4,5"swabira",True,"chand"]
+	
+
+ 6. Why are lists mutable, but tuples are immutable?
+	Just like mutable datatypes there are immutable datatype
+	
+	immutable: which cannot be change once initialized, if changes are done the object no longer has same address as before
+	the fact that the List is mutable and Tuple is immutable is because they are built ln that way 
+	and another reason is that, the list can read and write the data even after initializing but tuples can only read the data 
+	once they are initialize.
+	list[1] = 100 gives no error but 
+	tuple[1] = 200 gives error
+
+	
+
+7. What is the difference between "==" and "is"operators in Python?
+	"==" is a relational operator which checks whether to variables contains same data
+	"is" is a identity operator which checks whether both the variables are pointing to the same address or not 
+	
+	a = 10;
+	b = 10;
+	
+	a == b  (True)
+	a is b  (False)
+	as they both have different address
+	
+	
+8. What are logical operators in Python?
+	operator: a type of token which performs operations on operators
+	
+	logical operators are used to combine multiple conditions in a program example logical and and logical or 
+	logical and (&&) : only true if all the conditions are true
+	logical or (||) : only false if all the conditions ae false
+	
+	
+9. What is type casting in Python?
+	type casting in python refers to the change in datatype of the variable
+	although the python does not requires to mention the type explicitly when writing a program 
+	it internally has two types of type casting:  
+		1. implicit - done by the interpreter 
+		2. explicit - done by the user
+		
+		
+10. What is the difference between implicit and explicit type casting?
+
+	1. implicit - done by the interpreter 
+		interpreter can up-cast the datatype if the size is not enough to store the result
+			a = 5
+			b= 5.0
+			type(a+b) is float 
+	2. explicit - done by the user
+		if one wants a+b to be an integer they can explicitly caste the data type 
+			c = int(2+3.0)
+			type(c) is int
+
+
+11. What is the purpose of conditional statements in Python?
+	conditional statements are used to control the flow of the program based on the condition with which they are provided
+	in real life situations, there exits many decisions and one should perform accordingly 
+	in programming, control flow statements, like conditional statements makes it possible 
+
+
+12.How does the elif statement work?
+	elif  = else +if
+	
+	if(condition 1){
+		if block
+		}
+	else {
+		if(condition 2){
+			else if block
+			}
+		}
+	 here the else block and if block inside else block are combinely written as elif 
+	 this elif mimic its functionality 
+
+13. What is the difference between for and while loops?
+	the major difference between for and while loop are:
+	1. for loops is called iterative loop since it is majorly used to iterate over the data while 
+	the while loop called repeatative block since it repeats until a specific conditions i met
+	2. for loop most of the time knows where to stop in prior but 
+	while loop does not know in prior it is decided at runtime
+	3. syntax difference 
+		the for loop has its initializing/declaration, condition, update value at same place while
+		while loop has initialization outside , condition in parenthesis and update inside the block
+		but mostly semantic remains same
+
+
+14. Describe a scenario where a while loop is more suitable than a for loop.
+	for linear search it is better to use for loop since iteration is required but ,
+	for binary search we need while loop with a condition (left<=right)
+	until the condition is not false
+	
+	since we don't know when the program will stop or how many iterations it would take to complete the program majorly 
+	for loop is not used;
+
+
+
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
