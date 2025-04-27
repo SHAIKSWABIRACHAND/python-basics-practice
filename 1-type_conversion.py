@@ -1,0 +1,7 @@
+s = input("Enter something: ")
+i = int(s)
+f = float(s)
+b = bool(int(s))
+print("Integer:", i)
+print("Float:", f)
+print("Boolean:", b)
