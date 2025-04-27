@@ -1,0 +1,5 @@
+# Ignore all PDFs
+*.pdf
+
+# Ignore specific notebook files (KKR sent files)
+*.ipynb
